@@ -4,7 +4,7 @@
     overflow-y: scroll;
     overflow-x: clip;
 
-    background-color: fuchsia;
+    background-color: rgb(42, 42, 42);
     background-image: url("https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?cs=srgb&dl=pexels-blitzboy-1144176.jpg&fm=jpg&w=1920&h=1078");
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@
         border-radius: 1vmax;
         background: white;
 
-        width: min(50vh, 90vw);
+        width: min(50vh, 80vw);
         display: flex;
         flex-direction: column;
         
@@ -74,7 +74,7 @@
         border-radius: 1vmax;
         background: white;
 
-        width: min(50vh, 90vw);
+        width: min(50vh, 80vw);
         
         font-family: "Exo 2", serif;
         font-optical-sizing: auto;
@@ -87,4 +87,5 @@
         padding-bottom: 1vmin;
         font-size: 2rem !important;
     }
+
 }
