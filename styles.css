@@ -53,13 +53,15 @@
         }
 
         .pfp {
+            width: 50%;
+            display: flex;
             align-self: flex-start;
             justify-self: end;
-            width: 50%;
+        }
+
+        img {
+            width: 100%;
             aspect-ratio: 1 / 1;
-            background-image: url("https://blahaj.zone/proxy/avatar.webp?url=https%3A%2F%2Fcdn.blahaj.zone%2Ffiles%2F1b8877fb-8c58-4d5f-9646-8407f07ac94a.jpg&avatar=1");
-            background-repeat: no-repeat;
-            background-size: cover;
 
             border-radius: 1vmax;
         }
